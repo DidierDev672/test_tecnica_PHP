@@ -1,0 +1,48 @@
+.box-test-schedule{
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: 2px solid #e9ecef;
+    box-shadow: 3px 3px 3px #dee2e6;
+    padding: 10px;
+}
+
+.box-test-schedule:hover{
+    box-shadow: 5px 5px 5px #dee2e6;
+}
+
+.box-test-schedule{
+    width: 45rem;
+    margin: auto;
+}
+
+.flex-test-schedule{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item-title-schedule{
+    display: flex;
+    place-content: center;
+}
+
+.title-schedule{
+    color: #212529;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.item-test-schedule{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.btn-primary{
+    width: 10rem;
+    margin: auto;
+}

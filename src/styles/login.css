@@ -1,0 +1,31 @@
+.flex-test-login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item-test-login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn-primary {
+    width: 10rem;
+    margin: auto;
+}
+
+.title-sign-in{
+    color: #212529;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.title-sign-in{
+    margin: auto;
+}

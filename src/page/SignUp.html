@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/signup.css">
+</head>
+<body>
+    <div class="container py-5">
+        <div class="box-test-login">
+            <form action="../connection/SignUp.php" method="post">
+                <div class="flex-test-sign-up">
+                    <div class="item-test-sign-up">
+                        <label class="title-sign-up">Sign Up</label>
+                    </div>
+                    <div class="item-test-sign-up">
+                        <label for="email">Email</label>
+                        <input type="email" id="email"
+                        name="email" class="text-input"
+                        placeholder="example@example.com"
+                        pattern="[a-z0-9._%+-]+@[z-z0-9.-]+\.[a-z]{2, 4}$"
+                        required />
+                    </div>
+                    <div class="item-test-sign-up">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="pwd"
+                        class="text-input" placeholder="********"
+                        required />
+                    </div>
+                    <div class="item-test-sign-up">
+                        <input type="submit" class="btn btn-primary" value="Sign Up" />
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
